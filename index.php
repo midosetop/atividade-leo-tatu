@@ -35,6 +35,7 @@ session_start();
         </form>
 
     <?php if(isset($_SESSION['user'])): ?>
+    <a href="painel.php">Ir para o Painel</a> |
     <a href="logout.php">Sair</a>
     <?php endif; ?>
     </header>
